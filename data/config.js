@@ -1,12 +1,12 @@
 module.exports = {
-	defaultTitle: 'John Doe',
+	defaultTitle: 'Brad Vorjohan',
 	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-	author: 'John Doe',
+	author: 'Brad Vorjohan',
 	url: 'https://portfolio.smakosh.com',
-	legalName: 'John Doe',
-	defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+	legalName: 'Brad Vorjohan',
+	defaultDescription: 'I’m Brad and Im great',
 	socialLinks: {
-		twitter: 'http://www.twitter.com/smakosh',
+		twitter: 'http://www.twitter.com/bvorjohan',
 		github: 'https://github.com/smakosh',
 		linkedin: 'https://www.linkedin.com/in/ismail-ghallou-630149122/',
 		instagram: 'https://instagram.com/smakosh19',
@@ -27,9 +27,9 @@ module.exports = {
 		zipCode: 'ZipCode',
 	},
 	contact: {
-		email: 'email',
+		email: 'bhvorjo@gmail.com',
 		phone: 'phone number',
 	},
-	foundingDate: '2018',
+	foundingDate: '2019',
 	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN'
 }
