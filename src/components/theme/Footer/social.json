@@ -2,13 +2,13 @@
   {
     "id": 0,
     "name": "Github",
-    "link": "https://github.com/smakosh",
+    "link": "https://github.com/bvorjohan",
     "icon": "/icons/github.svg"
   },
   {
     "id": 1,
     "name": "Twitter",
-    "link": "https://twitter.com/smakosh",
+    "link": "https://twitter.com/bvorjohan",
     "icon": "/icons/twitter.svg"
   }
 ]
