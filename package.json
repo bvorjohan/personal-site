@@ -1,67 +1,62 @@
 {
-    "name":  "portfolio",
-    "private":  true,
-    "description":  "A simple portfolio for developers",
-    "version":  "0.1.1",
-    "author":  "Smakosh \u003cismai23l@hotmail.com\u003e",
-    "dependencies":  {
-                         "babel-plugin-styled-components":  "^2",
-                         "dotenv":  "^16",
-                         "formik":  "^2",
-                         "gatsby":  "^5",
-                         "gatsby-plugin-manifest":  "^5",
-                         "gatsby-plugin-nprogress":  "^5",
-                         "gatsby-plugin-offline":  "^6",
-                         "gatsby-plugin-react-helmet":  "^6",
-                         "gatsby-plugin-styled-components":  "^6",
-                         "prop-types":  "^15",
-                         "react":  "^18",
-                         "react-anchor-link-smooth-scroll":  "^1.0.12",
-                         "react-dom":  "^18",
-                         "react-google-recaptcha":  "^3",
-                         "react-helmet":  "^6",
-                         "styled-components":  "^5",
-                         "yup":  "^1"
-                     },
-    "keywords":  [
-                     "gatsby",
-                     "portfolio",
-                     "developer"
-                 ],
-    "license":  "MIT",
-    "scripts":  {
-                    "build":  "gatsby build",
-                    "start":  "gatsby develop -o",
-                    "format":  "prettier --write \"src/**/*.js\"",
-                    "reset":  "rm -rf .cache/ public/",
-                    "test":  "echo \"Write tests! -\u003e https://gatsby.app/unit-testing\""
-                },
-    "devDependencies":  {
-                            "ajv":  "^8.20.0",
-                            "prettier":  "^3"
-                        },
-    "repository":  {
-                       "type":  "git",
-                       "url":  "git@github.com:smakosh/gatsby-portfolio-dev.git"
-                   },
-    "bugs":  {
-                 "url":  "https://github.com/smakosh/gatsby-portfolio-dev/issues"
-             },
-    "overrides":  {
-                      "deepmerge":  "^4.3.1",
-                      "lodash":  "^4.18.1",
-                      "tmp":  "^0.2.7",
-                      "immutable":  "^3.8.4",
-                      "decode-uri-component":  "^0.5.1",
-                      "path-to-regexp@0":  "^0.1.13",
-                      "cookie@0":  "^0.7.2",
-                      "webpack":  "^5.112.2",
-                      "serialize-javascript":  "^7.1.4",
-                      "sharp":  "^0.35.5",
-                      "webpack-dev-middleware":  "^7.4.5",
-                      "file-type":  "^21.3.1",
-                      "uuid":  "^11.1.1",
-                      "@graphql-tools/utils":  "^12.1.0",
-                      "@parcel/reporter-dev-server":  "^2.16.4"
-                  }
+    "name": "portfolio",
+    "private": true,
+    "description": "A simple portfolio for developers",
+    "version": "0.1.1",
+    "author": "Smakosh <ismai23l@hotmail.com>",
+    "dependencies": {
+        "babel-plugin-styled-components": "^2",
+        "dotenv": "^16",
+        "gatsby": "^5",
+        "gatsby-plugin-manifest": "^5",
+        "gatsby-plugin-offline": "^6",
+        "gatsby-plugin-react-helmet": "^6",
+        "gatsby-plugin-styled-components": "^6",
+        "prop-types": "^15",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-helmet": "^6",
+        "styled-components": "^5"
+    },
+    "keywords": [
+        "gatsby",
+        "portfolio",
+        "developer"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "start": "gatsby develop -o",
+        "format": "prettier --write \"src/**/*.js\"",
+        "reset": "rm -rf .cache/ public/",
+        "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    },
+    "devDependencies": {
+        "ajv": "^8.20.0",
+        "prettier": "^3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    },
+    "bugs": {
+        "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    },
+    "overrides": {
+        "deepmerge": "^4.3.1",
+        "lodash": "^4.18.1",
+        "tmp": "^0.2.7",
+        "immutable": "^3.8.4",
+        "decode-uri-component": "^0.5.1",
+        "path-to-regexp@0": "^0.1.13",
+        "cookie@0": "^0.7.2",
+        "webpack": "^5.112.2",
+        "serialize-javascript": "^7.1.4",
+        "sharp": "^0.35.5",
+        "webpack-dev-middleware": "^7.4.5",
+        "file-type": "^21.3.1",
+        "uuid": "^11.1.1",
+        "@graphql-tools/utils": "^12.1.0",
+        "@parcel/reporter-dev-server": "^2.16.4"
+    }
 }
