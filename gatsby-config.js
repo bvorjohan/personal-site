@@ -1,4 +1,4 @@
-const config = require('./data/config')
+﻿const config = require('./data/config')
 
 require('dotenv').config({
 	path: `.env.${process.env.NODE_ENV}`,
@@ -20,14 +20,6 @@ module.exports = {
         path: '${__dirname}/src/assets',
       },
     }, */
-		
-		{
-			resolve: 'gatsby-plugin-nprogress',
-			options: {
-				color: config.themeColor,
-				showSpinner: false,
-			},
-		},
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
@@ -43,5 +35,6 @@ module.exports = {
 		'gatsby-plugin-offline',
 	],
 }
+
 
 
