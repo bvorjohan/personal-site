@@ -9,9 +9,9 @@ export default () => (
 		<p className="muted">Frontend engineer at Amazon</p>
 
 		<p>
-			I build web products and the infrastructure behind them. Right now
-			that means support tools for Amazon sellers. Before that, Buy with
-			Prime and the AWS CloudFormation console.
+			Passionate about web products and infrastructure. Right now that
+			means support tools for Amazon sellers. Before that, Buy with Prime
+			and the AWS CloudFormation console.
 		</p>
 
 		<ul className="links">
